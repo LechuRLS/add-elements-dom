@@ -1,0 +1,72 @@
+
+
+body {
+    background-color: rgb(52, 50, 50);
+    height: 100vh; 
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New';
+    text-align: center;
+    background-color: rgb(36, 34, 34);
+    margin: 15px;
+    padding: 50px;
+}
+
+#lista {
+    color: white;
+    font-size: 25px;
+    padding: 50px;
+    margin: 50px;
+}
+
+#agregar {
+  background-color: #4885f6;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  transition: all ease 0.15s;
+}
+
+#agregar:hover {
+    background-color: #0f49ad;
+    color: white;
+    border: solid black;
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+    cursor: pointer;
+  }
+
+
+  #borrar {
+    background-color: #f14f4f;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: all ease 0.15s;
+  }
+  
+  #borrar:hover {
+      background-color: #f33232;
+      color: white;
+      border: solid black;
+      transform: scale(1.1);
+      transition: all linear 0.2s;
+      cursor: pointer;
+    }
+
+    #botones {
+     position: fixed;
+     bottom: 30px;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+     margin-top: 20px;
+    }
